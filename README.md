@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="fig/new_logo.png" width="180px" height="150px">
+  <img src="fig/resized_logo.png" width="250px" height="160px">
 </div>
 
 # Accessing Vision Foundation Models at ImageNet-level Costs
