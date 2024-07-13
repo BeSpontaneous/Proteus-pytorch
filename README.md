@@ -46,7 +46,7 @@ Proteus can easily generalize to existing vision foundation models to access the
 
     - Target Model: ViT-S
 
-    Proteus clearly outperforms other baseline methods on different tasks and slightly lags behind the Oracle method DINOv2 with much less training data.
+    Proteus-S clearly outperforms other baseline methods on different tasks and slightly lags behind the Oracle method DINOv2-S with much less training data.
   
     <div align="center">
     <img src="fig/dino_s.png" width="600px" height="410px">
@@ -54,7 +54,7 @@ Proteus can easily generalize to existing vision foundation models to access the
 
     - Target Model: ViT-B and ViT-L
 
-    The performance gap between Proteus and the Oracle method DINOv2 is enclosed when we scale up the model size. Proteus-L almost match the performance of DINOv2-L across various tasks.
+    The performance gap between Proteus and the Oracle method DINOv2 is enclosed when we scale up the model size. Proteus-L almost matches the performance of DINOv2-L across various tasks.
 
     <div align="center">
     <img src="fig/dino_bl.png" width="600px" height="400px">
