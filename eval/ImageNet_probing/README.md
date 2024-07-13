@@ -9,8 +9,8 @@ We prepare ImageNet-1K following the instructions in [DINOv2](https://github.com
 
 ## Training
 1. Specify the config file with `config-file` in the training script `run_probing.sh`.
-2. Specify the path of pre-trained model with `pretrained-weights`.
-3. Specify the directory of datasets to repalce `imagenet_path` in `train-dataset` and `val-dataset`.
+2. Use the `pretrained-weights` parameter to provide the path to your pre-trained model.
+3. Replace `imagenet_path` in the `train-dataset` and `val-dataset` parameters with the directory where your datasets are located.
 4. Simply run the training script as follows:
 
    ```

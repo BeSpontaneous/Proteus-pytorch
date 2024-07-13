@@ -2,10 +2,9 @@
   <img src="fig/resized_logo.png" width="250px" height="160px">
 </div>
 
-# Accessing Vision Foundation Models at ImageNet-level Costs
-
-Primary contact: [Yitian Zhang](mailto:markcheung9248@gmail.com)
-
+<div style="text-align: center;">
+  <h1>Accessing Vision Foundation Models <br> at ImageNet-level Costs</h1>
+</div>
 
 <div align="center">
   <img src="fig/teaser.png" width="650px" height="400px">
@@ -22,7 +21,7 @@ Primary contact: [Yitian Zhang](mailto:markcheung9248@gmail.com)
 
 
 <div align="center">
-  <img src="fig/visual.png" width="900px" height="300px">
+  <img src="fig/visual.png" width="910px" height="300px">
 </div>
 
 
@@ -46,12 +45,16 @@ Proteus can easily generalize to existing vision foundation models to access the
   DINOv2 is trained on private large-scale dataset LVD-142M and we utilize the pre-trained DINOv2 as the teacher to train a randomly initialized network on ImageNet-1K. We validate Proteus across ImageNet-1K, 12 fine-grained classification datasets, semantic segmentation dataset ADE20K and depth estimation dataset NYU-Depth V2 following DINOv2.
 
     - Target Model: ViT-S
+
+    Proteus clearly outperforms other baseline methods on different tasks and slightly lags behind the Oracle method DINOv2 with much less training data.
   
     <div align="center">
-    <img src="fig/dino_s.png" width="600px" height="400px">
+    <img src="fig/dino_s.png" width="600px" height="410px">
     </div>
 
     - Target Model: ViT-B and ViT-L
+
+    The performance gap between Proteus and the Oracle method DINOv2 is enclosed when we scale up the model size. Proteus-L almost match the performance of DINOv2-L across various tasks.
 
     <div align="center">
     <img src="fig/dino_bl.png" width="600px" height="400px">
@@ -59,11 +62,11 @@ Proteus can easily generalize to existing vision foundation models to access the
 
     - Comparison with Distillation in Supervised Learning
 
+    Proteus outperforms traditional supervised training across various dimensions with similar costs, offering a novel training scheme enhanced by foundation models.
+
     <div align="center">
     <img src="fig/deit.png" width="600px" height="220px">
     </div>
-
-    Proteus outperforms traditional supervised training across various dimensions with similar costs, offering a novel training scheme enhanced by foundation models.
 
 
 We provide the pretrained Proteus distilled from DINOv2:

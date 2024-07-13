@@ -9,9 +9,9 @@ We prepare ImageNet-1K following the instructions in [DeiT](https://github.com/f
 
 ## Training
 1. Specify the directory of datasets with `data-path` in the training script `run_pretrain.sh`.
-2. Specify the teacher and student choices with `teacher-model` and `target_model`.
+2. Use the `teacher-model` and `target_model` parameters to select the appropriate teacher and student models.
 3. Specify the model choices with `model` to choose from DINOv2, SynCLR, CLIP.
-4. Specify the pre-trained teacher path with `teacher-path` for SynCLR and CLIP training.
+4. For SynCLR and CLIP training, use the `teacher-path` parameter to indicate the path to the pre-trained teacher model.
 5. Simply run the training script as follows:
 
    ```

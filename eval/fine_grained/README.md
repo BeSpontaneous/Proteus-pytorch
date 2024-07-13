@@ -9,7 +9,7 @@ There are 12 fine-grained classification datasets in total: `aircraft`, `caltech
 
 ## Training
 1. Specify the model choice with `model` in the training script `run_all_datasets.sh`.
-2. Specify the path of pre-trained model with `pretrained`.
+2. Use the `pretrained` parameter to provide the path to your pre-trained model.
 3. Simply run the training script as follows:
 
    ```
