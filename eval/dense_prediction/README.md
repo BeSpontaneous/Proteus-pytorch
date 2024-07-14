@@ -22,4 +22,4 @@ Please follow the guidelines in mmsegmentation to prepare [ADE20K](https://githu
 
 ## Acknowledgment
 
-This part is heavily build upon [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/tree/main). We gratefully thank the authors for their wonderful works.
+This part is heavily build upon [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/tree/main) and [Monocular-Depth-Estimation-Toolbox](https://github.com/zhyever/Monocular-Depth-Estimation-Toolbox/tree/main). We gratefully thank the authors for their wonderful works.

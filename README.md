@@ -124,4 +124,4 @@ We provide a comprehensive codebase which contains the implementation of [Pre-tr
 
 ## Acknowledgment
 
-Our codebase is heavily build upon [DeiT](https://github.com/facebookresearch/deit?tab=readme-ov-file), [DINOv2](https://github.com/facebookresearch/dinov2), [SynCLR](https://github.com/google-research/syn-rep-learn/tree/main/SynCLR) and [mmsegmentation](https://github.com/open-mmlab/mmsegmentation). We gratefully thank the authors for their wonderful works.
+Our codebase is heavily build upon [DeiT](https://github.com/facebookresearch/deit?tab=readme-ov-file), [DINOv2](https://github.com/facebookresearch/dinov2), [SynCLR](https://github.com/google-research/syn-rep-learn/tree/main/SynCLR), [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) and [Monocular-Depth-Estimation-Toolbox](https://github.com/zhyever/Monocular-Depth-Estimation-Toolbox/tree/main). We gratefully thank the authors for their wonderful works.
