@@ -2,9 +2,7 @@
   <img src="fig/resized_logo.png" width="250px" height="160px">
 </div>
 
-<center>
-  <h1>Accessing Vision Foundation Models <br> at ImageNet-level Costs</h1>
-</center>
+# Accessing Vision Foundation Models at ImageNet-level Costs
 
 <div align="center">
   <img src="fig/teaser.png" width="650px" height="400px">
