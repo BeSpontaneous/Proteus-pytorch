@@ -7,7 +7,7 @@ data_preprocessor = dict(size=crop_size)
 norm_cfg = dict(type='SyncBN', requires_grad=True)
 model = dict(
     data_preprocessor=data_preprocessor,
-    pretrained='pretrain/dinov2_vitl14_ibot_mse_aligned_old_aug_ema_wo_mixup.pth',
+    pretrained='pretrain/dinov2_vitl14_proteus.pth',
     backbone=dict(
         type='MAE',
         img_size=(518, 518),

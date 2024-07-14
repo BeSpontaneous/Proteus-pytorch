@@ -6,7 +6,7 @@ crop_size = (518, 518)
 data_preprocessor = dict(size=crop_size)
 model = dict(
     data_preprocessor=data_preprocessor,
-    pretrained='/home/qw/yitian/mmsegmentation/pretrained/dinov2_vits14_ibot_mse_aligned_old_aug_ema_wo_mixup.pth',
+    pretrained='pretrain/dinov2_vits14_proteus.pth',
     backbone=dict(
         type='MAE',
         img_size=(518, 518),
