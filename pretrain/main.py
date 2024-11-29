@@ -498,7 +498,7 @@ def train_one_epoch(model: torch.nn.Module,
 
         torch.cuda.synchronize()
         if model_ema is not None:
-            model_ema.update(model.module.student.backbone)
+            model_ema.update(model.student.backbone)
 
         metric_logger.update(loss=loss_value)
         metric_logger.update(patch_loss=patch_loss_value)
