@@ -2,7 +2,7 @@
   <img src="fig/resized_logo.png" width="250px" height="160px">
 </div>
 
-# Accessing Vision Foundation Models at ImageNet-level Costs
+# Accessing Vision Foundation Models via ImageNet-1K (ICLR2025)
 
 <div align="center">
   <img src="fig/teaser.png" width="650px" height="400px">
