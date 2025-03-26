@@ -22,7 +22,7 @@ from dinov2.data.transforms import make_classification_eval_transform, make_clas
 import dinov2.distributed as distributed
 from dinov2.eval.metrics import MetricType, build_metric
 from dinov2.eval.setup import get_args_parser as get_setup_args_parser
-from dinov2.eval.setup import setup_and_build_model_ibot
+from dinov2.eval.setup import setup_and_build_model_proteus
 from dinov2.eval.utils import ModelWithIntermediateLayers, evaluate
 from dinov2.logging import MetricLogger
 
@@ -595,7 +595,7 @@ def run_eval_linear(
 
 
 def main(args):
-    model, autocast_dtype = setup_and_build_model_ibot(args)
+    model, autocast_dtype = setup_and_build_model_proteus(args)
 
     run_eval_linear(
         model=model,
